@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="веб-сайты, приложения, презентации">
+    <meta name="description" content="Дизайн-студия Nerd's &mdash; разработка сайтов, приложений для iOS и Android и корпоративных презентаций. Наш подход никого не оставит равнодушным!">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="main-header__row">
+          <a class="main-header__logo" title="Дизайн-студия Nerds"><img src="img/main-header__logo.svg" alt="Логотип дизайнстудии &laquo;Nerd's&raquo;" width="160" height="67"></a>
+          <nav class="nav">
+            <ul class="nav-list  reset-list">
+              <li class="nav-list__item"><a>Студия</a></li>
+              <li class="nav-list__item"><a class="nav-list__link" href="#">Клиенты</a></li>
+              <li class="nav-list__item"><a class="nav-list__link" href="catalog.html">Магазин</a></li>
+              <li class="nav-list__item"><a class="nav-list__link" href="#">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="cart">
+            <a class="cart__link" href="#">Корзина</a>
+          </div>
+        </div>
+        <section class="slider">
+          <h2 class="visually-hidden">Преимущества</h2>
+          <div class="slider__inner">
+            <div class="slider__slides">
+              <div class="slider__item  expensive" id="slide_1">
+              <!--
+                 Примеры, где допустимо использование <br>
+                https://up.htmlacademy.ru/htmlcss/22/examples_br
+                P.S.thank you for understanding
+              -->
+                <p><b>Долго, дорого,
+                  скрупулезно.</b></p>
+                <p>Математически выверенный дизайн<br>
+                   для вашего сайта или мобильного приложения.</p>
+                <a class="slider__btn  btn" href="#">Узнать больше</a>
+              </div>
+              <div class="slider__item  math" id="slide_2">
+                <p><b>Любим математику
+                  как никто другой</b></p>
+                <p>Никакого креатива, только математические формулы
+                   для расчета идеальных пропорций.</p>
+                <a class="slider__btn  btn" href="#">Узнать больше</a>
+              </div>
+              <div class="slider__item  night" id="slide_3">
+                <p><b>Только ночь,
+                  только хардкор</b></p>
+                <p>Работать днем, как все? Мы против этого.<br>
+                   Ближе к плуночи работа только начинается.</p>
+                <a class="slider__btn  btn" href="#">Узнать больше</a>
+              </div>
+            </div>
+          </div>
+          <ul class="slider__switches  switches  reset-list">
+            <li class="switches__radio">
+              <button class="switches__btn  switches__btn--expensive active"  data-id="slide_1"><span class="visually-hidden">Первый слайд</span></button>
+            </li>
+            <li class="switches__radio">
+              <button class="switches__btn  switches__btn--math"  data-id="slide_2"><span class="visually-hidden">Второй слайд</span></button>
+            </li>
+            <li class="switches__radio">
+              <button class="switches__btn  switches__btn--night"  data-id="slide_3"><span class="visually-hidden">Третий слайд</span></button>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </header>
+    <main class="main  container">
+      <h1 class="visually-hidden">&laquo;Дизайн-студия Нёрдс&raquo;</h1>
+      <section class="services">
+        <h2 class="visually-hidden">Услуги</h2>
+        <ul class="services__list  reset-list">
+          <li class="services__item">
+            <h3 class="services__name">Веб-сайты</h3>
+            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <a class="btn  btn--danger" href="#">Заказать</a>
+          </li>
+          <li class="services__item">
+            <h3 class="services__name">Приложения</h3>
+            <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+            <a class="btn  btn--success" href="#">Заказать</a>
+          </li>
+          <li class="services__item">
+            <h3 class="services__name">Презентации</h3>
+            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+            <a class="btn  btn--warning" href="#">Заказать</a>
+          </li>
+        </ul>
+      </section>
+      <section class="features">
+        <h2 class="visually-hidden">О студии</h2>
+        <div class="features__left">
+          <p>Мы &ndash; маленькая, но гордая дизайн-студия из Краснодара.</p>
+          <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+             превыше креатива. Работаем не покладая рук, как роботы.</p>
+          <p><b>Выполняем заказы на разработку:</b></p>
+          <ul class="features__orders  reset-list">
+            <li class="orders__item">Веб-сайтов любой сложности</li>
+            <li class="orders__item">Мобильных приложений для iOS и Android</li>
+            <li class="orders__item">Слайдшоу и видео для корпоративных презентаций</li>
+          </ul>
+        </div>
+        <div class="features__right">
+          <img class="features__picture" src="img/features__logo.png" alt="Логотип дизайнстудии &laquo;Nerd's&raquo;" width="360" height="208">
+          <b class="features__slogan">C 2004 года любим точность во всем:</b>
+          <ul class="features__list  reset-list">
+            <li class="features__item">
+              <b class="features__promo">146<span class="features__sup">%</span></b>
+              <p>Уровень самоотдачи</p>
+            </li>
+            <li class="features__item">
+              <b class="features__promo">100<span class="features__sup">%</span></b>
+              <p>Соблюдение сроков</p>
+            </li>
+            <li class="features__item">
+            <b class="features__promo">50<span class="features__sup">%</span></b>
+              <p>Минимальная предоплата</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="layout">
+        <ul class="layout__list  reset-list">
+          <li><a href="https://htmlacademy.ru/intensive/htmlcss" aria-label="Шаблон Академи"><img src="img/features__HA.png" alt="Логотип HtmlAcademy" width="199" height="68"></a></li>
+          <li><a href="#" aria-label="Шаблон Барбершоп"><img src="img/features__Barbershop.png" alt="Логотип Barbershop Borodinski" width="209" height="87"></a></li>
+          <li><a href="#" aria-label="Шаблон Пинк"><img src="img/features__Pink.png" alt="Логотип Pink" width="185" height="52"></a></li>
+          <li><a href="#" aria-label="Шаблон Мишка"><img src="img/features__Mishka.png" alt="Логотип Mishka" width="173" height="84"></a></li>
+        </ul>
+      </section>
+    </main>
+    <section class="contacts">
+      <iframe class="contacts__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037999040354!2d30.322010416394033!3d59.938716271971415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya+Konyushennaya+ul.%2C+19%2C+Sankt-Peterburg%2C+Russia%2C+191186!5e0!3m2!1sen!2s!4v1441888483426" allowfullscreen></iframe>
+      <img class="contacts__map" src="img/contacts__map.jpg" alt="Офис студии по адресу ул. Б. Конюшенная, д. 19/8, Санкт-Петербург" width="1440" height="416">
+      <div class="container">
+        <div class="address">
+          <b class="address__name">Nёrds design studio</b>
+          <p>191186, Санкт-Петербург,
+             ул. Б. Конюшенная, д. 19/8</p>
+          <a class="address__tel" href="tel:+781227575">тел. +7 (812) 275-75-75</a>
+          <a class="btn  address__btn  feedback-link" href="#">Напишите нам</a>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer__row">
+          <div class="social">
+            <ul class="social__list  reset-list">
+              <li class="social__btn  social__btn--vk"><a href="#" title="Наш VKontakte"><span class=" visually-hidden">Вконтакте</span></a></li>
+              <li class="social__btn  social__btn--fb"><a href="#" title="Наш Facebook"><span class=" visually-hidden">Фейсбук</span></a></li>
+              <li class="social__btn  social__btn--inst"><a href="#" title="Наш Instagram"><span class=" visually-hidden">Инстаграм</span></a></li>
+            </ul>
+          </div>
+          <div class="main-footer__text">
+            <b class="main-footer__slogan">Давайте дружить, это выгодно!</b>
+            <p>Скидки 10% для друзей из социальных сетей.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <article class="popup">
+      <div class="popup__wrap">
+        <button class="popup__close" type="button" title="Закрыть"><span class="visually-hidden">Закрыть попап</span></button>
+        <h2 class="popup__title heading">Напишите нам</h2>
+      </div>
+      <form class="popup__feedback  feedback" action="https://echo.htmlacademy.ru" method="post">
+        <div class="feedback__name">
+          <label class="feedback__item"  for="name">Ваше имя:</label><input class="feedback__field  feedback__field--focus  feedback__field-name" type="text" id="name" name="name" placeholder="Имя Фамилия">
+        </div>
+        <div class="feedback__email">
+          <label class="feedback__item"  for="email">Ваш e-mail:</label><input class="feedback__field  feedback__field-email" type="email" id="email" name="e-mail" placeholder="email@example.com">
+        </div>
+        <div class="feedback__letter">
+          <label class="feedback__item"  for="letter">Текст письма:</label><textarea class="feedback__text-field" name="letter" id="letter" placeholder="В свободной форме"></textarea>
+        </div>
+        <button class="btn  feedback__btn" type="submit">Отправить</button>
+      </form>
+    </article>
+    <script src="js/script.min.js"></script>
+  </body>
+</html>
