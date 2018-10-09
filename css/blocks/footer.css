@@ -1,0 +1,344 @@
+@media (min-width: 320px) and (max-width: 768px) {
+
+  .footer__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .social {
+    margin-bottom: 40px;
+    order: 2;
+  }
+
+  .social__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .social__btn {
+    position: relative;
+    width: 78px;
+    height: 78px;
+    margin-right: 13px;
+    border-radius: 50%;
+  }
+
+  .social__btn a {
+    display: block;
+    width: 78px;
+    height: 78px;
+    -webkit-transition: background-color .2s ease;
+         -o-transition: background-color .2s ease;
+            transition: background-color .2s ease;
+    border-radius: 50%;
+    background-color: #e1e1e1;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .social__btn a::before {
+    position: absolute;
+    content: "";
+    -webkit-transition: opacity .2s ease;
+         -o-transition: opacity .2s ease;
+            transition: opacity .2s ease;
+  }
+
+  .social__btn--vk a::before {
+    top: 32px;
+    left: 27px;
+    width: 50px;
+    height: 15px;
+    background: url("../../img/vk-icon.svg") no-repeat;
+  }
+
+  .social__btn--fb a::before {
+    top: 28px;
+    left: 34px;
+    width: 30px;
+    height: 23px;
+    background: url("../../img/fb-icon.svg") no-repeat;
+  }
+
+  .social__btn--inst a::before {
+    top: 29px;
+    left: 28px;
+    width: 40px;
+    height: 22px;
+    background: url("../../img/inst-icon.svg") no-repeat;
+  }
+
+  .social__btn a:hover {
+    background-color: #e74246;
+  }
+
+  .social__btn a:active::before {
+    opacity: 0.3;
+  }
+
+  .social__btn a:active {
+    background-color: #d7373b;
+  }
+
+  .main-footer__slogan {
+    display: block;
+    letter-spacing: 0.1px;
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .main-footer {
+    margin-bottom: 57px;
+    padding-top: 9px;
+  }
+
+  .main-footer__text {
+    padding-top: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+    order: 1;
+  }
+
+  .main-footer__text p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.375;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+  .footer__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .social {
+    margin-bottom: 40px;
+    order: 2;
+  }
+
+  .social__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .social__btn {
+    position: relative;
+    width: 78px;
+    height: 78px;
+    margin-right: 13px;
+    border-radius: 50%;
+  }
+
+  .social__btn a {
+    display: block;
+    width: 78px;
+    height: 78px;
+    -webkit-transition: background-color .2s ease;
+         -o-transition: background-color .2s ease;
+            transition: background-color .2s ease;
+    border-radius: 50%;
+    background-color: #e1e1e1;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .social__btn a::before {
+    position: absolute;
+    content: "";
+    -webkit-transition: opacity .2s ease;
+         -o-transition: opacity .2s ease;
+            transition: opacity .2s ease;
+  }
+
+  .social__btn--vk a::before {
+    top: 32px;
+    left: 27px;
+    width: 50px;
+    height: 15px;
+    background: url("../../img/vk-icon.svg") no-repeat;
+  }
+
+  .social__btn--fb a::before {
+    top: 28px;
+    left: 34px;
+    width: 30px;
+    height: 23px;
+    background: url("../../img/fb-icon.svg") no-repeat;
+  }
+
+  .social__btn--inst a::before {
+    top: 29px;
+    left: 28px;
+    width: 40px;
+    height: 22px;
+    background: url("../../img/inst-icon.svg") no-repeat;
+  }
+
+  .social__btn a:hover {
+    background-color: #e74246;
+  }
+
+  .social__btn a:active::before {
+    opacity: 0.3;
+  }
+
+  .social__btn a:active {
+    background-color: #d7373b;
+  }
+
+  .main-footer__slogan {
+    display: block;
+    letter-spacing: 0.1px;
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .main-footer {
+    margin-bottom: 57px;
+    padding-top: 9px;
+  }
+
+  .main-footer__text {
+    padding-top: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+    order: 1;
+  }
+
+  .main-footer__text p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.375;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .footer__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .social {
+    margin-right: 127px;
+  }
+
+  .social__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .social__btn {
+    position: relative;
+    width: 78px;
+    height: 78px;
+    margin-right: 13px;
+    border-radius: 50%;
+  }
+
+  .social__btn a {
+    display: block;
+    width: 78px;
+    height: 78px;
+    -webkit-transition: background-color .2s ease;
+         -o-transition: background-color .2s ease;
+            transition: background-color .2s ease;
+    border-radius: 50%;
+    background-color: #e1e1e1;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .social__btn a::before {
+    position: absolute;
+    content: "";
+    -webkit-transition: opacity .2s ease;
+         -o-transition: opacity .2s ease;
+            transition: opacity .2s ease;
+  }
+
+  .social__btn--vk a::before {
+    top: 32px;
+    left: 27px;
+    width: 50px;
+    height: 15px;
+    background: url("../../img/vk-icon.svg") no-repeat;
+  }
+
+  .social__btn--fb a::before {
+    top: 28px;
+    left: 34px;
+    width: 30px;
+    height: 23px;
+    background: url("../../img/fb-icon.svg") no-repeat;
+  }
+
+  .social__btn--inst a::before {
+    top: 29px;
+    left: 28px;
+    width: 40px;
+    height: 22px;
+    background: url("../../img/inst-icon.svg") no-repeat;
+  }
+
+  .social__btn a:hover {
+    background-color: #e74246;
+  }
+
+  .social__btn a:active::before {
+    opacity: 0.3;
+  }
+
+  .social__btn a:active {
+    background-color: #d7373b;
+  }
+
+  .main-footer__slogan {
+    display: block;
+    letter-spacing: 0.1px;
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .main-footer {
+    margin-bottom: 57px;
+    padding-top: 9px;
+  }
+
+  .main-footer__text {
+    padding-top: 5px;
+  }
+
+  .main-footer__text p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.375;
+  }
+}

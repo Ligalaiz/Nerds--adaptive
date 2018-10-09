@@ -1,0 +1,16 @@
+@import "jquery/jquery.fancybox.min.css";
+@import "jquery/owl.carousel.min.css";
+
+@import "normalize.min.css";
+
+@import "global/fonts.css";
+@import "global/layout.css";
+
+@import "blocks/header.css";
+@import "blocks/main.css";
+@import "blocks/services.css";
+@import "blocks/features.css";
+@import "blocks/layout.css";
+@import "blocks/contacts.css";
+@import "blocks/footer.css";
+@import "blocks/popup.css";
