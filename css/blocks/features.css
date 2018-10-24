@@ -1,8 +1,6 @@
 @media (min-width: 320px) and (max-width: 768px) {
 
   .features {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -26,6 +24,7 @@
     font-size: 45px;
     font-weight: 500;
     line-height: 1;
+    text-align: center;
   }
 
   .features__left p:nth-child(2) {
@@ -77,13 +76,9 @@
   }
 
   .features__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 339px;
+    justify-content: space-around;
+    flex-wrap: wrap;
     list-style: none;
   }
 
@@ -233,7 +228,7 @@
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     margin-bottom: 45px;
     border-bottom: 2px solid #eeeeee;
   }

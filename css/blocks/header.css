@@ -1,13 +1,10 @@
-@media (min-width: 320px) and (max-width: 767px) {
+@media  (max-width: 767px) {
 
   .container {
-    min-width: 320px;
-    max-width: 768px;
     width: 100%;
     padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .main-header {
@@ -142,7 +139,7 @@
   }
 }
 
-@media (min-width: 767px) and (max-width: 1200px) {
+@media (min-width: 768px) {
 
   .container {
     min-width: 768px;
@@ -160,7 +157,6 @@
   .main-header__logo {
     width: 160px;
     height: 67px;
-    margin-left: 25px;
     margin-right: 40px;
   }
 
@@ -197,7 +193,7 @@
 
   .cart {
     margin-left: auto;
-    margin-right: 30px;
+    margin-right: 10px;
   }
 
   .cart__link {
@@ -290,20 +286,12 @@
 }
 
 @media (min-width: 1200px) {
-  .container {
-    min-width: 1200px;
-    margin: 0 auto;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
 
   .main-header__row {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
   }
 
   .main-header {
@@ -315,7 +303,7 @@
   .main-header__logo {
     width: 160px;
     height: 66px;
-    margin-right: 200px;
+    margin-right: 100px;
   }
 
   .nav {
@@ -348,7 +336,6 @@
 
   .cart__link {
     width: 78px;
-    margin-right: 36px;
     padding-left: 39px;
     background-image: url("../../img/cart-icon.svg");
     background-repeat: no-repeat;
@@ -378,6 +365,7 @@
   .slider {
     position: relative;
     width: 1160px;
+    margin: 0 auto;
   }
 
   .slider__item {

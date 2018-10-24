@@ -115,7 +115,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) {
 
   .footer__row {
     display: -webkit-box;
@@ -127,7 +127,6 @@
 
   .social {
     margin-bottom: 40px;
-    order: 2;
   }
 
   .social__list {
@@ -222,7 +221,6 @@
     padding-top: 5px;
     text-align: center;
     margin-bottom: 30px;
-    order: 1;
   }
 
   .main-footer__text p {
@@ -238,6 +236,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    justify-content: space-between;
   }
 
   .social {
