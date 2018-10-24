@@ -115,7 +115,11 @@
   }
 }
 
+<<<<<<< HEAD
 @media (min-width: 768px) {
+=======
+@media (min-width: 768px) and (max-width: 1200px) {
+>>>>>>> master
 
   .footer__row {
     display: -webkit-box;
@@ -127,6 +131,10 @@
 
   .social {
     margin-bottom: 40px;
+<<<<<<< HEAD
+=======
+    order: 2;
+>>>>>>> master
   }
 
   .social__list {
@@ -221,6 +229,10 @@
     padding-top: 5px;
     text-align: center;
     margin-bottom: 30px;
+<<<<<<< HEAD
+=======
+    order: 1;
+>>>>>>> master
   }
 
   .main-footer__text p {
@@ -236,7 +248,10 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+<<<<<<< HEAD
     justify-content: space-between;
+=======
+>>>>>>> master
   }
 
   .social {

@@ -181,7 +181,11 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+<<<<<<< HEAD
     justify-content: space-between;
+=======
+    justify-content: space-around;
+>>>>>>> master
     margin: 0;
     margin-bottom: 80px;
     padding: 0;
@@ -190,6 +194,10 @@
 
   .services__item {
     width: 300px;
+<<<<<<< HEAD
+=======
+    margin-right: 100px;
+>>>>>>> master
     padding-top: 147px;
   }
 

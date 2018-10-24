@@ -1,6 +1,11 @@
 @media (min-width: 320px) and (max-width: 768px) {
 
   .features {
+<<<<<<< HEAD
+=======
+    display: -webkit-box;
+    display: -ms-flexbox;
+>>>>>>> master
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -24,7 +29,10 @@
     font-size: 45px;
     font-weight: 500;
     line-height: 1;
+<<<<<<< HEAD
     text-align: center;
+=======
+>>>>>>> master
   }
 
   .features__left p:nth-child(2) {
@@ -76,9 +84,19 @@
   }
 
   .features__list {
+<<<<<<< HEAD
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+=======
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 339px;
+>>>>>>> master
     list-style: none;
   }
 
@@ -228,7 +246,11 @@
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
+<<<<<<< HEAD
     justify-content: space-between;
+=======
+            justify-content: space-between;
+>>>>>>> master
     margin-bottom: 45px;
     border-bottom: 2px solid #eeeeee;
   }
